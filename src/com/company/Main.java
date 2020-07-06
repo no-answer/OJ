@@ -1,10 +1,10 @@
 package com.company;
-import LeetCode._200;
+import LeetCode.o65;
 
 public class Main {
 
     public static void main(String[] args) {
-        _200 test = new _200();
+        o65 test = new o65();
         while (true)
             test.run();
     }

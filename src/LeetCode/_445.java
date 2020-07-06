@@ -3,13 +3,13 @@ package LeetCode;
 import java.util.Scanner;
 import java.util.Stack;
 
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode(int x) { val = x; }
-}
-
 public class _445 {
+    class ListNode {
+        int val;
+        ListNode next;
+        ListNode(int x) { val = x; }
+    }
+
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         Stack<ListNode> s1 = new Stack<ListNode>();
         Stack<ListNode> s2 = new Stack<ListNode>();
