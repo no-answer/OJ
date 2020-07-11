@@ -3,13 +3,13 @@ import LeetCode._445;
 
 import java.util.Scanner;
 
-//class ListNode {
-//    int val;
-//    ListNode next;
-//    ListNode(int x) { val = x; }
-//}
-
 public class _21 {
+    class ListNode {
+        int val;
+        ListNode next;
+        ListNode(int x) { val = x; }
+    }
+
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         ListNode ans = new ListNode(0);
         ListNode ansTemp = ans;
